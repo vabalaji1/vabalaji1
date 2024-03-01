@@ -1,0 +1,130 @@
+digraph G {
+compound=true;
+size="150,150";
+rankdir = "LR";
+ranksep = 1.5;
+subgraph cluster1 {
+label="FreshFall";
+color = blue
+node0 [label="CSCI 1100",shape="record"];
+node1 [label="MATH 1010",shape="record"];
+}
+subgraph cluster2 {
+label="FreshSpring";
+color = blue
+node2 [label="MATH 1020",shape="record"];
+node3 [label="CSCI 1200",shape="record"];
+}
+subgraph cluster3 {
+label="SophFall";
+color = orange
+node4 [label="<f0> CSCI 2200| <f1> MATH 1010",shape="record"];
+node6 [label="CSCI 2500",shape="record"];
+}
+subgraph cluster4 {
+label="SophSpring";
+color = violet
+node5 [label="<f0> CSCI 2300| <f1> MATH 1010",shape="record"];
+node19 [label="CSCI 2600",shape="record"];
+}
+subgraph cluster5 {
+label="MATH";
+node7 [label="MATH 1500",shape="record"];
+node8 [label="MATH 1900",shape="record"];
+node9 [label="MATH 2010",shape="record"];
+node10 [label="MATH 2400",shape="record"];
+node11 [label="MATH 4090",shape="record"];
+node12 [label="MATH 4200",shape="record"];
+node13 [label="MATH 4400",shape="record"];
+node14 [label="MATH 4700",shape="record"];
+node15 [label="MATH 4740",shape="record"];
+node16 [label="MATH 4800",shape="record"];
+node17 [label="MATH 4950",shape="record"];
+node18 [label="MATH 4961",shape="record"];
+node21 [label="MATH 1520",shape="record"];
+node22 [label="MATH 2940",shape="record"];
+node23 [label="MATH 4010",shape="record"];
+node24 [label="MATH 4020",shape="record"];
+node25 [label="<f0> MATH 4030| <f1> PHIL 2140| <f2> CSCI 2200",shape="record"];
+node26 [label="<f0> MATH 4150| <f1> CSCI 1100| <f2> CSCI 2200",shape="record"];
+node27 [label="<f0> MATH 4840| <f1> CSCI 4800",shape="record"];
+node28 [label="MATH 4940",shape="record"];
+node34 [label="MATH 4720",shape="record"];
+node36 [label="MATH 4120",shape="record"];
+node37 [label="MATH 4140",shape="record"];
+node38 [label="MATH 4300",shape="record"];
+node39 [label="MATH 4500",shape="record"];
+node40 [label="MATH 4820",shape="record"];
+node41 [label="MATH 4040",shape="record"];
+node44 [label="MATH 4100",shape="record"];
+node45 [label="MATH 4600",shape="record"];
+}
+subgraph cluster6 {
+label="JunSpring";
+color = orange
+node20 [label="CSCI 4210",shape="record"];
+}
+subgraph cluster7 {
+label="SenFall";
+color = green
+node29 [label="CSCI 4230",color="green",style="filled",shape="record"];
+node30 [label="<f0> CSCI 4310| <f1> ECSE 2660",color="green",style="filled",shape="record"];
+node32 [label="CSCI 4440",color="green",style="filled",shape="record"];
+node33 [label="CSCI 4460",color="green",style="filled",shape="record"];
+node43 [label="CSCI 4560",color="green",style="filled",shape="record"];
+}
+subgraph cluster8 {
+label="JunFall";
+color = orange
+node31 [label="CSCI 4430",shape="record"];
+}
+subgraph cluster9 {
+label="SenSpring";
+color = green
+node35 [label="CSCI 4966",color="green",style="filled",shape="record"];
+node42 [label="CSCI 4530",color="green",style="filled",shape="record"];
+node46 [label="CSCI 4550",color="green",style="filled",shape="record"];
+}
+node3->node4 [color="red"];
+node3->node5 [color="red"];
+node4->node5 [color="red"];
+node3->node6 [color="red"];
+node2->node9 [];
+node2->node10 [];
+node9->node11 [];
+node2->node12 [];
+node11->node12 [];
+node10->node13 [];
+node9->node13 [];
+node10->node14 [];
+node2->node15 [];
+node10->node16 [];
+node9->node16 [];
+node3->node19 [color="red"];
+node4->node19 [color="red"];
+node5->node20 [color="red"];
+node6->node20 [color="red"];
+node16->node27 [];
+node5->node29 [];
+node20->node30 [];
+node5->node31 [color="red"];
+node19->node31 [color="red"];
+node5->node32 [];
+node19->node33 [];
+node2->node34 [];
+node5->node35 [];
+node19->node35 [];
+node9->node36 [];
+node9->node38 [];
+node9->node39 [];
+node10->node39 [];
+node11->node41 [];
+node5->node42 [];
+node19->node42 [];
+node5->node43 [];
+node19->node43 [];
+node9->node44 [];
+node9->node45 [];
+node5->node46 [];
+node19->node46 [];
+}

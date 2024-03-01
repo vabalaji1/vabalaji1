@@ -1,0 +1,427 @@
+[
+    {
+      "code": "ADMN",
+      "courses": [
+        {
+          "crse": 1010,
+          "id": "ADMN-1010",
+          "sections": [
+            {
+              "act": 0,
+              "attribute": "Online Course",
+              "cap": 0,
+              "credMax": 0.0,
+              "credMin": 0.0,
+              "crn": 25790,
+              "crse": 1010,
+              "rem": 0,
+              "sec": "01",
+              "subj": "ADMN",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [
+                    "M",
+                    "R"
+                  ],
+                  "instructor": "TBA",
+                  "location": "Online",
+                  "timeEnd": 1620,
+                  "timeStart": 1430
+                }
+              ],
+              "title": "Eff Comm For Class Pedagogy"
+            },
+            {
+              "act": 0,
+              "attribute": "Online Course",
+              "cap": 0,
+              "credMax": 0.0,
+              "credMin": 0.0,
+              "crn": 29381,
+              "crse": 1010,
+              "rem": 0,
+              "sec": "02",
+              "subj": "ADMN",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [
+                    "W",
+                    "F"
+                  ],
+                  "instructor": "TBA",
+                  "location": "Online",
+                  "timeEnd": 950,
+                  "timeStart": 800
+                }
+              ],
+              "title": "Eff Comm For Class Pedagogy"
+            }
+          ],
+          "subj": "ADMN",
+          "title": "Eff Comm For Class Pedagogy"
+        },
+        {
+          "crse": 1824,
+          "id": "ADMN-1824",
+          "sections": [
+            {
+              "act": 19,
+              "attribute": "Online Course",
+              "cap": 130,
+              "credMax": 0.0,
+              "credMin": 0.0,
+              "crn": 29416,
+              "crse": 1824,
+              "rem": 111,
+              "sec": "01",
+              "subj": "ADMN",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [
+                    "T"
+                  ],
+                  "instructor": "Joseph Louis Trzepacz",
+                  "location": "Online",
+                  "timeEnd": 1650,
+                  "timeStart": 1600
+                }
+              ],
+              "title": "Student Success Labs"
+            }
+          ],
+          "subj": "ADMN",
+          "title": "Student Success Labs"
+        },
+        {
+          "crse": 1961,
+          "id": "ADMN-1961",
+          "sections": [
+            {
+              "act": 5,
+              "attribute": "Online Course",
+              "cap": 50,
+              "credMax": 0.0,
+              "credMin": 0.0,
+              "crn": 26559,
+              "crse": 1961,
+              "rem": 45,
+              "sec": "01",
+              "subj": "ADMN",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [
+                    "W"
+                  ],
+                  "instructor": "Jeannie Steigler",
+                  "location": "Online",
+                  "timeEnd": 1650,
+                  "timeStart": 1600
+                }
+              ],
+              "title": "First Year Seminar"
+            },
+            {
+              "act": 5,
+              "attribute": "Online Course",
+              "cap": 6,
+              "credMax": 0.0,
+              "credMin": 0.0,
+              "crn": 29366,
+              "crse": 1961,
+              "rem": 1,
+              "sec": "02",
+              "subj": "ADMN",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [
+                    "W"
+                  ],
+                  "instructor": "Jeannie Steigler",
+                  "location": "Online",
+                  "timeEnd": 1350,
+                  "timeStart": 1300
+                }
+              ],
+              "title": "First Year Seminar"
+            }
+          ],
+          "subj": "ADMN",
+          "title": "First Year Seminar"
+        },
+        {
+          "crse": 6700,
+          "id": "ADMN-6700",
+          "sections": [
+            {
+              "act": 291,
+              "attribute": "Online Course",
+              "cap": 550,
+              "credMax": 0.0,
+              "credMin": 0.0,
+              "crn": 27433,
+              "crse": 6700,
+              "rem": 259,
+              "sec": "01",
+              "subj": "ADMN",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [],
+                  "instructor": "Constance M Grega",
+                  "location": "Online",
+                  "timeEnd": -1,
+                  "timeStart": -1
+                }
+              ],
+              "title": "Orientation Sem For Grads"
+            },
+            {
+              "act": 27,
+              "attribute": "Online Course",
+              "cap": 100,
+              "credMax": 0.0,
+              "credMin": 0.0,
+              "crn": 28340,
+              "crse": 6700,
+              "rem": 73,
+              "sec": "H01",
+              "subj": "ADMN",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [],
+                  "instructor": "Natalina Ann Sutera",
+                  "location": "TBA",
+                  "timeEnd": -1,
+                  "timeStart": -1
+                }
+              ],
+              "title": "Academic Orientation Seminar For Graduate Students"
+            }
+          ],
+          "subj": "ADMN",
+          "title": "Orientation Sem For Grads"
+        },
+        {
+          "crse": 6800,
+          "id": "ADMN-6800",
+          "sections": [
+            {
+              "act": 96,
+              "attribute": "Online Course",
+              "cap": 500,
+              "credMax": 0.0,
+              "credMin": 0.0,
+              "crn": 27434,
+              "crse": 6800,
+              "rem": 404,
+              "sec": "01",
+              "subj": "ADMN",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [],
+                  "instructor": "Stanley M. Dunn",
+                  "location": "Online",
+                  "timeEnd": -1,
+                  "timeStart": -1
+                }
+              ],
+              "title": "Ta Training Seminar"
+            }
+          ],
+          "subj": "ADMN",
+          "title": "Ta Training Seminar"
+        }
+      ],
+      "name": "Administrative Courses"
+    },
+    {
+      "code": "USAF",
+      "courses": [
+        {
+          "crse": 10,
+          "id": "USAF-0010",
+          "sections": [
+            {
+              "act": 52,
+              "attribute": "Introductory Level Course, Hybrid:Online/In-Person Course",
+              "cap": 80,
+              "credMax": 0.0,
+              "credMin": 0.0,
+              "crn": 25709,
+              "crse": 10,
+              "rem": 28,
+              "sec": "01",
+              "subj": "USAF",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [
+                    "W"
+                  ],
+                  "instructor": "Zackary B. Davis, Jennifer Lynn Fredericks",
+                  "location": "Low Center for Industrial Inn. 4050",
+                  "timeEnd": 950,
+                  "timeStart": 800
+                }
+              ],
+              "title": "Leadership Lab"
+            }
+          ],
+          "subj": "USAF",
+          "title": "Leadership Lab"
+        },
+        {
+          "crse": 1010,
+          "id": "USAF-1010",
+          "sections": [
+            {
+              "act": 22,
+              "attribute": "Introductory Level Course, Hybrid:Online/In-Person Course",
+              "cap": 35,
+              "credMax": 1.0,
+              "credMin": 1.0,
+              "crn": 25731,
+              "crse": 1010,
+              "rem": 13,
+              "sec": "01",
+              "subj": "USAF",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [
+                    "R"
+                  ],
+                  "instructor": "Joshua J. Lavin, Jennifer Lynn Fredericks",
+                  "location": "Low Center for Industrial Inn. 3116",
+                  "timeEnd": 850,
+                  "timeStart": 800
+                }
+              ],
+              "title": "Aerospace Studies 100a"
+            }
+          ],
+          "subj": "USAF",
+          "title": "Aerospace Studies 100a"
+        },
+        {
+          "crse": 2030,
+          "id": "USAF-2030",
+          "sections": [
+            {
+              "act": 15,
+              "attribute": "Online Course",
+              "cap": 35,
+              "credMax": 1.0,
+              "credMin": 1.0,
+              "crn": 25732,
+              "crse": 2030,
+              "rem": 20,
+              "sec": "01",
+              "subj": "USAF",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [
+                    "R"
+                  ],
+                  "instructor": "Zackary B. Davis, Jennifer Lynn Fredericks",
+                  "location": "Online",
+                  "timeEnd": 955,
+                  "timeStart": 905
+                }
+              ],
+              "title": "Aerospace Studies 200a"
+            }
+          ],
+          "subj": "USAF",
+          "title": "Aerospace Studies 200a"
+        },
+        {
+          "crse": 2050,
+          "id": "USAF-2050",
+          "sections": [
+            {
+              "act": 8,
+              "attribute": "Hybrid:Online/In-Person Course",
+              "cap": 35,
+              "credMax": 3.0,
+              "credMin": 3.0,
+              "crn": 25733,
+              "crse": 2050,
+              "rem": 27,
+              "sec": "01",
+              "subj": "USAF",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [
+                    "M"
+                  ],
+                  "instructor": "Kristen Gibson, Jennifer Lynn Fredericks",
+                  "location": "Low Center for Industrial Inn. 3116",
+                  "timeEnd": 950,
+                  "timeStart": 700
+                }
+              ],
+              "title": "Aerospace Studies 300a"
+            }
+          ],
+          "subj": "USAF",
+          "title": "Aerospace Studies 300a"
+        },
+        {
+          "crse": 2070,
+          "id": "USAF-2070",
+          "sections": [
+            {
+              "act": 13,
+              "attribute": "Hybrid:Online/In-Person Course",
+              "cap": 35,
+              "credMax": 3.0,
+              "credMin": 3.0,
+              "crn": 25734,
+              "crse": 2070,
+              "rem": 22,
+              "sec": "01",
+              "subj": "USAF",
+              "timeslots": [
+                {
+                  "dateEnd": "12/21",
+                  "dateStart": "08/31",
+                  "days": [
+                    "M"
+                  ],
+                  "instructor": "Nicholas C. Graham, Jennifer Lynn Fredericks",
+                  "location": "Darrin Communications Center 232",
+                  "timeEnd": 950,
+                  "timeStart": 700
+                }
+              ],
+              "title": "Aerospace Studies 400a"
+            }
+          ],
+          "subj": "USAF",
+          "title": "Aerospace Studies 400a"
+        }
+      ],
+      "name": "Aerospace Studies"
+    }]

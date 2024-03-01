@@ -1,0 +1,56 @@
+digraph G {
+    rankdir=LR;
+    node [shape=box];
+    subgraph cluster_1 {
+        label="Bucket 1: 0% to 25%";
+        color=blue;
+        "7" -> "8" [label="11.11%", weight="11.11"];
+        "10" -> "11" [label="8.33%", weight="8.33"];
+        "14" -> "19" [label="25.0%", weight="25.0"];
+        "17" -> "16" [label="5.56%", weight="5.56"];
+        "19" -> "14" [label="25.0%", weight="25.0"];
+        "19" -> "16" [label="15.0%", weight="15.0"];
+    }
+    subgraph cluster_2 {
+        label="Bucket 2: 25% to 50%";
+        color=blue;
+        "3" -> "6" [label="42.86%", weight="42.86"];
+        "5" -> "10" [label="45.45%", weight="45.45"];
+        "7" -> "12" [label="38.46%", weight="38.46"];
+        "9" -> "4" [label="50.0%", weight="50.0"];
+        "9" -> "18" [label="47.37%", weight="47.37"];
+        "10" -> "15" [label="31.25%", weight="31.25"];
+        "12" -> "6" [label="46.15%", weight="46.15"];
+        "14" -> "19" [label="25.0%", weight="25.0"];
+        "18" -> "13" [label="26.32%", weight="26.32"];
+        "19" -> "14" [label="25.0%", weight="25.0"];
+    }
+    subgraph cluster_3 {
+        label="Bucket 3: 50% to 75%";
+        color=blue;
+        "3" -> "12" [label="69.23%", weight="69.23"];
+        "4" -> "10" [label="54.55%", weight="54.55"];
+        "4" -> "11" [label="58.33%", weight="58.33"];
+        "5" -> "18" [label="68.42%", weight="68.42"];
+        "6" -> "17" [label="61.11%", weight="61.11"];
+        "7" -> "2" [label="62.5%", weight="62.5"];
+        "9" -> "4" [label="50.0%", weight="50.0"];
+        "15" -> "3" [label="75.0%", weight="75.0"];
+        "18" -> "4" [label="73.68%", weight="73.68"];
+        "19" -> "4" [label="75.0%", weight="75.0"];
+        "19" -> "7" [label="60.0%", weight="60.0"];
+    }
+    subgraph cluster_4 {
+        label="Bucket 4: 75% to 100%";
+        color=blue;
+        "1" -> "8" [label="77.78%", weight="77.78"];
+        "1" -> "16" [label="88.24%", weight="88.24"];
+        "8" -> "0" [label="88.89%", weight="88.89"];
+        "14" -> "0" [label="93.33%", weight="93.33"];
+        "15" -> "3" [label="75.0%", weight="75.0"];
+        "17" -> "1" [label="88.89%", weight="88.89"];
+        "17" -> "3" [label="77.78%", weight="77.78"];
+        "18" -> "3" [label="78.95%", weight="78.95"];
+        "19" -> "4" [label="75.0%", weight="75.0"];
+    }
+}

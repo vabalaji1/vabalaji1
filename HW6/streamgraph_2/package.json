@@ -1,0 +1,14 @@
+{
+  "name": "@d3/streamgraph/2",
+  "main": "0529cbec8d1f78b6@674.js",
+  "version": "674.0.0",
+  "homepage": "https://observablehq.com/@d3/streamgraph/2",
+  "author": {
+    "name": "D3",
+    "url": "https://observablehq.com/@d3"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
